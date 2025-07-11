@@ -225,17 +225,6 @@ function MaterialsSection() {
   );
 }
 
-function Testimonial({ name, text }: { name: string, text: string }) {
-  return (
-    <Card>
-      <p style={{ fontStyle: 'italic', color: '#444', marginBottom: '1rem' }}>
-        “{text}”
-      </p>
-      <div style={{ fontWeight: 600, color: 'var(--color-fg)' }}>{name}</div>
-    </Card>
-  );
-}
-
 function TestimonialsSection() {
   // Testimonial data
   const testimonials = [
